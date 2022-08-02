@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/netcore_refresher_course/FileContentIndex
+/.vs
+/Solution1/.vs/Solution1/v17
