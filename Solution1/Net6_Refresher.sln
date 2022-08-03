@@ -5,6 +5,10 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{535DD349-B22E-401D-901B-2BA314441F93}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApps", "WebApps", "{4E33E403-AFDC-4711-AA2B-0588E2B409F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPages", "RazorPages\RazorPages.csproj", "{A23B8EFA-354E-4890-A457-6267D5C53A95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{535DD349-B22E-401D-901B-2BA314441F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{535DD349-B22E-401D-901B-2BA314441F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{535DD349-B22E-401D-901B-2BA314441F93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A23B8EFA-354E-4890-A457-6267D5C53A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A23B8EFA-354E-4890-A457-6267D5C53A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A23B8EFA-354E-4890-A457-6267D5C53A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A23B8EFA-354E-4890-A457-6267D5C53A95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A23B8EFA-354E-4890-A457-6267D5C53A95} = {4E33E403-AFDC-4711-AA2B-0588E2B409F7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3BDE3D1A-2662-4F25-A304-0A401220643C}
