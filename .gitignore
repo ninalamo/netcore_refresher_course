@@ -5,3 +5,8 @@
 /.vs/netcore_refresher_course/FileContentIndex
 /.vs
 /Solution1/.vs/Solution1/v17
+/Solution1/MyApp/bin/Debug/net6.0
+/Solution1/MyApp/obj
+/Solution1/ConsoleApp/bin/Debug/net6.0
+/Solution1/ConsoleApp/obj
+/Solution1/.vs/Net6_Refresher/v17/.suo
